@@ -25,7 +25,6 @@ def dfs(x) :
             
 def bfs(z) :
     queue = deque([z])
-    # b_list.append(z)
     b_visited[z] = 1
     while queue:
         v = queue.popleft()
@@ -33,7 +32,6 @@ def bfs(z) :
         for i in graph[v]:
             if b_visited[i] == 0:
                 queue.append(i)
-                # b_list.append(i)
                 b_visited[i] = 1
             
 dfs(c)
