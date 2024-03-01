@@ -1,4 +1,4 @@
-# 미로 탐색_실버3
+# 미로 탐색_실버1
 from collections import deque
 
 n,m = map(int,input().split())
